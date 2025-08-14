@@ -17,7 +17,7 @@ const Navbar = () => {
             className="hover:font-semibold flex items-center gap-5 text-2xl transition-all duration-100"
             href="https://github.com/alokkkxpixel/PassWord-manager"
           >
-            <h1 className="text-white font-semibold">Soucre code here</h1>
+            <h1 className="text-white text-sm font-semibold">Soucre code here</h1>
             <VscGithubInverted />
           </a>
         </li>
