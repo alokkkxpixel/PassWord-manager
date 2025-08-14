@@ -14,9 +14,10 @@ const Navbar = () => {
       <ul>
         <li className="flex items-center gap-4">
           <a
-            className="hover:font-semibold text-2xl transition-all duration-100"
+            className="hover:font-semibold flex items-center gap-5 text-2xl transition-all duration-100"
             href="https://github.com/alokkkxpixel/PassWord-manager"
           >
+            <h1 className="text-white font-semibold">Soucre code here</h1>
             <VscGithubInverted />
           </a>
         </li>
