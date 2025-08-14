@@ -136,6 +136,8 @@ const Manager = () => {
               onChange={(e) => handleChange(e)}
               type="text"
               name="site"
+              required
+              
               value={Form.site}
               placeholder="Enter your Website Url"
               className="border py-2 px-3 placeholder:text-sm border-green-500 w-full my-2 md:my-3 rounded-lg"
@@ -147,6 +149,7 @@ const Manager = () => {
                 value={Form.username}
                 type="text"
                 name="username"
+                required
                 className=" w-full md:w-2/3 border border-green-600 text-black text-lg px-2 py-1 placeholder:text-sm rounded-md"
                 placeholder="Enter Your Username"
               />
@@ -157,6 +160,7 @@ const Manager = () => {
                   value={Form.password}
                   type={Togglestate ? "password" : "text"}
                   name="password"
+                  required
                   className="outline-none text-black text-lg placeholder:text-sm py-1 px-2 rounded-md flex-grow"
                   placeholder="Enter your Password"
                 />
